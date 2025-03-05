@@ -59,7 +59,7 @@ Las restricciones establecen **limitaciones** en la arquitectura del sistema, ya
 | **Tipo de Restricción** | **Descripción** |
 |------------------------|----------------|
 | Tecnológica | El sistema debe desarrollarse utilizando **Spring Boot y PostgreSQL**, debido a la infraestructura actual de la empresa y su compatibilidad con otros sistemas internos. |
-| _[Agregar otro tipo]_ | _[Describir la restricción]_ |
+| Tecnológica |  Se debe utilizar OAuth2 y JWT para la validación de identidad. |
 
 >  **Tipos de restricciones:**  
 > - **Tecnológicas:** Lenguajes, frameworks o herramientas que deben utilizarse.  
