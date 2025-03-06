@@ -61,6 +61,8 @@ Las restricciones establecen **limitaciones** en la arquitectura del sistema, ya
 | Tecnológica | El sistema debe desarrollarse utilizando **Spring Boot y PostgreSQL**, debido a la infraestructura actual de la empresa y su compatibilidad con otros sistemas internos. |
 | Tecnológica |  Se debe utilizar OAuth2 y JWT para la validación de identidad. |
 | De infraestructura | El sistema debe desplegarse en AWS utilizando contenedores Docker y Kubernetes, garantizando escalabilidad y alta disponibilidad.|
+| Regulatoria | El sistema debe cumplir con la normativa PCI DSS para garantizar la seguridad de las transacciones y la protección de los datos de pago de los clientes.|
+| De Negocio | Solo los administradores tienen permiso para modificar o eliminar productos del inventario, garantizando control sobre los cambios en la plataforma.|
 
 >  **Tipos de restricciones:**  
 > - **Tecnológicas:** Lenguajes, frameworks o herramientas que deben utilizarse.  
